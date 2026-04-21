@@ -12,7 +12,7 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
                     
                     {/* Logo - Changed to "Thirumalai" */}
-                    <h1 className="text-1xl md:text-xl font-normal text-gray-800 hover:text-gray-600 transition-colors">
+                    <h1 className="text-1xl md:text-xl font-bold text-gray-800 hover:text-gray-600 transition-colors">
                         Parthipan
                     </h1>
 
