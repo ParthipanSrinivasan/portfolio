@@ -3,7 +3,7 @@
 export default function About (){
     return(
         <>
-        <section id="about" className="bg-white py-10 md:py-20">
+        <section id="about" className="bg-white py-10 md:py-20 px-4 md:px-8 lg:px-12">
             <div className="max-w-5xl mx-auto px-2 md:px-4 lg:px-6">
                 
                 {/* Header */}

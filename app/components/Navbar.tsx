@@ -8,12 +8,12 @@ export default function Navbar() {
     
     return(
         <>
-            <nav className="bg-white shadow-sm sticky top-0 z-50 px-2 py-3">
+            <nav className="bg-white shadow-sm sticky top-0 z-50 px-5 py-3 ">
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
                     
                     {/* Logo - Changed to "Thirumalai" */}
-                    <h1 className="text-1xl md:text-xl font-bold text-gray-800 hover:text-gray-600 transition-colors">
-                        Parthipan
+                    <h1 className="text-lg md:text-2xl font-normal text-gray-800 hover:text-gray-600 transition-colors">
+                        Parthipan S
                     </h1>
 
                     {/* Desktop Menu - Added all 5 menu items */}
