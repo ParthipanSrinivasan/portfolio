@@ -1,9 +1,8 @@
 // app/skills/page.tsx (Simple List)
 "use client";
-
 export default function Skills() {
     return (
-        <section className="bg-white py-16 md:py-18 lg:py-8">
+        <section id="skills" className="bg-white py-10 md:py-18 lg:py-28">
             <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
                 
                 {/* Header */}

@@ -3,7 +3,7 @@
 export default function About (){
     return(
         <>
-        <section className="bg-white py-6 md:py-12">
+        <section id="about" className="bg-white py-10 md:py-20">
             <div className="max-w-5xl mx-auto px-2 md:px-4 lg:px-6">
                 
                 {/* Header */}
@@ -128,9 +128,13 @@ export default function About (){
 
                 {/* Download CV Button */}
                 <div className="text-center mt-12">
-                    <button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors shadow-sm text-sm">
-                        Download CV
-                    </button>
+                     <a
+                            href="/parthipan_cv.pdf"
+                            download
+                            className="px-5 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors shadow-sm inline-block"
+                            >
+                            Download CV
+                        </a>
                 </div>
             </div>
         </section>

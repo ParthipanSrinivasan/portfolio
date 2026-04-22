@@ -18,28 +18,32 @@ export default function Navbar() {
 
                     {/* Desktop Menu - Added all 5 menu items */}
                     <div className="hidden md:flex space-x-8">
-                        <Link href="/" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
+                        <Link href="#home" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
                             Home
                         </Link>
-                        <Link href="/about" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
+                        <Link href="#about" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
                             About
                         </Link>
-                        <Link href="/skills" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
+                        <Link href="#skills" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
                             Skills
                         </Link>
-                        <Link href="/projects" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
+                        <Link href="#project" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
                             Projects
                         </Link>
-                        <Link href="/contact" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
+                        <Link href="#contact" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
                             Contact
                         </Link>
                     </div>
 
                     {/* Desktop Download CV Button - New addition */}
                     <div className="hidden md:block">
-                        <button className="px-5 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors shadow-sm">
+                        <a
+                            href="/parthipan_cv.pdf"
+                            download
+                            className="px-5 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors shadow-sm inline-block"
+                            >
                             Download CV
-                        </button>
+                            </a>
                     </div>
 
                     {/* Mobile Menu Button - Improved icon */}
@@ -72,16 +76,16 @@ export default function Navbar() {
                         <Link href="/" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-gray-900 font-medium py-2">
                             Home
                         </Link>
-                        <Link href="/about" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-gray-900 font-medium py-2">
+                        <Link href="#about" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-gray-900 font-medium py-2">
                             About
                         </Link>
-                        <Link href="/skills" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-gray-900 font-medium py-2">
+                        <Link href="#skills" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-gray-900 font-medium py-2">
                             Skills
                         </Link>
-                        <Link href="/projects" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-gray-900 font-medium py-2">
+                        <Link href="#project" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-gray-900 font-medium py-2">
                             Projects
                         </Link>
-                        <Link href="/contact" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-gray-900 font-medium py-2">
+                        <Link href="#contact" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-gray-900 font-medium py-2">
                             Contact
                         </Link>
                         <button className="px-5 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors w-full text-left">

@@ -27,7 +27,7 @@ export default function Contact() {
     };
 
     return (
-        <section className="bg-white pb-16 md:pb-20 lg:pb-28 pt-10 md:pt-12 lg:pt-18">
+        <section id="contact" className="bg-white pb-16 md:pb-20 lg:pb-28 pt-10 md:pt-20 lg:pt-28">
             <div className="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 ">
                 
                 {/* Header */}

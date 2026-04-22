@@ -38,7 +38,7 @@ export default function Hero() {
                             and resolve complex technical issues effectively.
                         </p>
                         
-                        <Link href="/projects">
+                        <Link href="#project">
                             <button className=" mb-4 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors shadow-sm text-xs">
                                 View Projects
                             </button>
